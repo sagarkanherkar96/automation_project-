@@ -1314,3 +1314,7 @@ Session ID: b641314322e6dce9f41ef466bbc69033
 2026-04-13 21:03:19 [main] FATAL BaseClass - This is a fatal message
 2026-04-13 21:36:13 [main] ERROR BaseClass - This is a error message
 2026-04-13 21:36:13 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 21:42:31 [main] ERROR BaseClass - This is a error message
+2026-04-13 21:42:31 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 21:43:09 [main] ERROR BaseClass - This is a error message
+2026-04-13 21:43:09 [main] FATAL BaseClass - This is a fatal message

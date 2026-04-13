@@ -8,6 +8,8 @@ import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 import com.flipkart.actiondriver.ActionDriver;
 import com.flipkart.utilities.ExtentManager;
@@ -116,6 +118,7 @@ public class BaseClass {
         } else {
 
             if (browser.equalsIgnoreCase("chrome")) {
+                WebDriverManager.chromedriver().setup(); // 🔥 REQUIRED
 
                 // Create ChromeOptions
                 ChromeOptions options = new ChromeOptions();
