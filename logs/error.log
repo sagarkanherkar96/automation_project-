@@ -1278,3 +1278,37 @@ Session ID: a73f576b8da63e25c7f5ff31a4cbc9c2
 2026-01-11 10:22:52 [main] FATAL BaseClass - This is a fatal message
 2026-01-18 10:56:43 [main] ERROR BaseClass - This is a error message
 2026-01-18 10:56:43 [main] FATAL BaseClass - This is a fatal message
+2026-04-12 17:27:19 [main] ERROR BaseClass - This is a error message
+2026-04-12 17:27:19 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 20:45:58 [main] ERROR BaseClass - This is a error message
+2026-04-13 20:45:58 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 20:46:04 [main] ERROR BaseClass - This is a error message
+2026-04-13 20:46:04 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 20:46:09 [main] ERROR BaseClass - This is a error message
+2026-04-13 20:46:09 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 20:46:15 [main] ERROR ActionDriver - Unable to locate element:no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Elements']"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4d0c054da2e162f116ddbe3d9bf2370, findElement {using=xpath, value=//h5[text()='Elements']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/ch/4bcn5pms5n3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60245}, goog:processID: 94640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60245/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4d0c054da2e162f116ddbe3d9bf2370
+2026-04-13 20:46:22 [main] ERROR ActionDriver - element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: //h5[text()='Elements'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/ch/4bcn5pms5n3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60245}, goog:processID: 94640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60245/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4d0c054da2e162f116ddbe3d9bf2370
+2026-04-13 20:46:46 [main] ERROR BaseClass - This is a error message
+2026-04-13 20:46:46 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 20:46:50 [main] ERROR ActionDriver - Element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //img[@src='/images/Toolsqa.jpg'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/ch/4bcn5pms5n3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 94741, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60581/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b641314322e6dce9f41ef466bbc69033
+2026-04-13 20:46:57 [main] ERROR ActionDriver - Element is not displayed: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(String)" because the return value of "com.flipkart.utilities.ExtentManager.getTest()" is null
+2026-04-13 21:03:19 [main] ERROR BaseClass - This is a error message
+2026-04-13 21:03:19 [main] FATAL BaseClass - This is a fatal message

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name ="flipkartSuite">
+    <parameter name="browser" value="chrome" />
     <listeners>
         <listener class-name="com.flipkart.listeners.TestListener"></listener>
     </listeners>
     <test name = "flipkartTest">
-        <parameter name="browser" value="chrome" />
         <classes>
             <class name = "com.flipkart.test.getProductNameFromList"></class>
 

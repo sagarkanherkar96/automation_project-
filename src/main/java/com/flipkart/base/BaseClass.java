@@ -22,10 +22,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 public class BaseClass {
 
@@ -59,7 +56,7 @@ public class BaseClass {
 
     @BeforeMethod
     @Parameters("browser")
-    public synchronized void setup(String browser) throws IOException {
+    public synchronized void setup( String browser) throws IOException {
         System.out.println("Setting up WebDriver for:" + this.getClass().getSimpleName());
         launchBrowser(browser);
         configureBrowser();
