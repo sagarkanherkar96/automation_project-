@@ -127,8 +127,8 @@ public class BaseClass {
                 options.addArguments("--disable-dev-shm-usage"); // Resolve issues in resource-limited environments
 
                 // driver = new ChromeDriver();
-             //   driver.set(new ChromeDriver(options)); // New Changes as per Thread
-                driver.set(new ChromeDriver()); // New Changes as per Thread
+                driver.set(new ChromeDriver(options)); // New Changes as per Thread
+              //  driver.set(new ChromeDriver()); // New Changes as per Thread
                 ExtentManager.registerDriver(getDriver());
                 logger.info("ChromeDriver Instance is created.");
             } else if (browser.equalsIgnoreCase("firefox")) {
