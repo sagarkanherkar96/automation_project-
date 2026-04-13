@@ -1312,3 +1312,5 @@ Session ID: b641314322e6dce9f41ef466bbc69033
 2026-04-13 20:46:57 [main] ERROR ActionDriver - Element is not displayed: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(String)" because the return value of "com.flipkart.utilities.ExtentManager.getTest()" is null
 2026-04-13 21:03:19 [main] ERROR BaseClass - This is a error message
 2026-04-13 21:03:19 [main] FATAL BaseClass - This is a fatal message
+2026-04-13 21:36:13 [main] ERROR BaseClass - This is a error message
+2026-04-13 21:36:13 [main] FATAL BaseClass - This is a fatal message

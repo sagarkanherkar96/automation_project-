@@ -11205,3 +11205,12 @@ Session ID: b641314322e6dce9f41ef466bbc69033
 2026-04-13 21:03:19 [main] INFO  ActionDriver - WebDriver instance is created.
 2026-04-13 21:03:19 [main] INFO  BaseClass - ActionDriver initlialized for thread: 1
 2026-04-13 21:03:19 [main] INFO  BaseClass - WebDriver instance is closed.
+2026-04-13 21:36:06 [main] INFO  BaseClass - config.properties file loaded
+2026-04-13 21:36:09 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-04-13 21:36:13 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-04-13 21:36:13 [main] TRACE BaseClass - This is a Trace message
+2026-04-13 21:36:13 [main] DEBUG BaseClass - This is a debug message
+2026-04-13 21:36:13 [main] WARN  BaseClass - This is a warm message
+2026-04-13 21:36:13 [main] INFO  ActionDriver - WebDriver instance is created.
+2026-04-13 21:36:13 [main] INFO  BaseClass - ActionDriver initlialized for thread: 1
+2026-04-13 21:36:13 [main] INFO  BaseClass - WebDriver instance is closed.
